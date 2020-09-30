@@ -1,0 +1,20 @@
+Good Morning,
+This problem was asked by Rilla (Myself)
+Given An array with objects (each object is a quiz),
+Each Quiz contains 2 fields (properties) "question" and "answers"
+See below:
+
+language::Javascript
+
+let Quizzes = [
+  ...,
+  {
+    question: 'Sample quiz question',
+    answers: [correctAnswer, wrongAnswer1, wrongAnswer2, wrongAnswer3]
+  },
+  ...
+]
+
+write an an algorithm that can help randomize/shuffle how answers are being arranged
+in each answers array for each quiz in the quizzes array
+ 
