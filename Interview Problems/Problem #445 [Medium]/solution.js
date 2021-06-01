@@ -52,3 +52,6 @@ console.log("prunedTree", prunedTree);
 
 // console.log("prunedTree.left", prunedTree.left);
 // console.log("prunedTree.right", prunedTree.right);
+
+// Reference Aided in solution
+// Link https://www.tutorialspoint.com/binary-tree-pruning-in-cplusplus
