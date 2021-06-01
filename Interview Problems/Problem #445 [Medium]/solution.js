@@ -22,12 +22,12 @@ demoTree.root.right.left = new TreeNode(1)
 demoTree.root.right.left.right = new TreeNode(0)
 demoTree.root.right.left.left = new TreeNode(0)
 
-console.log(demoTree)
+// console.log(demoTree)
 
 function prunTree(node, logType = "main") {
   if (!node) return null;
 
-  console.log(logType, node);
+  // console.log(logType, node);
 
   node.left = prunTree(node.left, "left");
   node.right = prunTree(node.right, "right");
